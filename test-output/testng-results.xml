@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6147" started-at="2021-02-07T15:49:52 UTC" finished-at="2021-02-07T15:49:58 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6147" started-at="2021-02-07T15:49:52 UTC" finished-at="2021-02-07T15:49:58 UTC">
+      <class name="com.ecom.selenium.tests.amazontests.ExplicitWaitTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.tests.amazontests.ExplicitWaitTest@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="3413" started-at="2021-02-07T15:49:52 UTC" finished-at="2021-02-07T15:49:55 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="mobileLinkTest()[pri:0, instance:com.ecom.selenium.tests.amazontests.ExplicitWaitTest@10bbd20a]" name="mobileLinkTest" duration-ms="1879" started-at="2021-02-07T15:49:55 UTC" finished-at="2021-02-07T15:49:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLinkTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ecom.selenium.tests.amazontests.ExplicitWaitTest@10bbd20a]" name="closeBrowser" is-config="true" duration-ms="804" started-at="2021-02-07T15:49:57 UTC" finished-at="2021-02-07T15:49:58 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecom.selenium.tests.amazontests.ExplicitWaitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
