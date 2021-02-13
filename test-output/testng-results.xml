@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6751" started-at="2021-02-07T17:32:31 UTC" finished-at="2021-02-07T17:32:38 UTC">
+  <suite name="Default suite" duration-ms="9511" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:15 UTC">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6751" started-at="2021-02-07T17:32:31 UTC" finished-at="2021-02-07T17:32:38 UTC">
-      <class name="com.ecom.selenium.external.elements.DemoSelectDropDownTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="2816" started-at="2021-02-07T17:32:31 UTC" finished-at="2021-02-07T17:32:34 UTC">
+    <test name="Default test" duration-ms="9511" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:15 UTC">
+      <class name="com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="8291" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:13 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testforSelect()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="testforSelect" duration-ms="139" started-at="2021-02-07T17:32:34 UTC" finished-at="2021-02-07T17:32:34 UTC">
+        <test-method status="PASS" signature="takeScreenShotTest()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="takeScreenShotTest" duration-ms="363" started-at="2021-02-13T15:43:13 UTC" finished-at="2021-02-13T15:43:14 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testforSelect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="afterTest" is-config="true" duration-ms="505" started-at="2021-02-07T17:32:34 UTC" finished-at="2021-02-07T17:32:34 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="2328" started-at="2021-02-07T17:32:34 UTC" finished-at="2021-02-07T17:32:37 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testforSelectByIndex()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="testforSelectByIndex" duration-ms="368" started-at="2021-02-07T17:32:37 UTC" finished-at="2021-02-07T17:32:37 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testforSelectByIndex -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ecom.selenium.external.elements.DemoSelectDropDownTest@10bbd20a]" name="afterTest" is-config="true" duration-ms="555" started-at="2021-02-07T17:32:37 UTC" finished-at="2021-02-07T17:32:38 UTC">
+        </test-method> <!-- takeScreenShotTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="afterTest" is-config="true" duration-ms="813" started-at="2021-02-13T15:43:14 UTC" finished-at="2021-02-13T15:43:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.ecom.selenium.external.elements.DemoSelectDropDownTest -->
+      </class> <!-- com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
