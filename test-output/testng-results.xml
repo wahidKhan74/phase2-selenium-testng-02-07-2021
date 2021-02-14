@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9511" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:15 UTC">
+  <suite name="Default suite" duration-ms="10332" started-at="2021-02-14T16:30:02 UTC" finished-at="2021-02-14T16:30:13 UTC">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9511" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:15 UTC">
-      <class name="com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="8291" started-at="2021-02-13T15:43:05 UTC" finished-at="2021-02-13T15:43:13 UTC">
+    <test name="Default test" duration-ms="10332" started-at="2021-02-14T16:30:02 UTC" finished-at="2021-02-14T16:30:13 UTC">
+      <class name="com.ecom.selenium.external.browser.popup.AddToCartTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ecom.selenium.external.browser.popup.AddToCartTest@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="3621" started-at="2021-02-14T16:30:02 UTC" finished-at="2021-02-14T16:30:06 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="takeScreenShotTest()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="takeScreenShotTest" duration-ms="363" started-at="2021-02-13T15:43:13 UTC" finished-at="2021-02-13T15:43:14 UTC">
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:com.ecom.selenium.external.browser.popup.AddToCartTest@10bbd20a]" name="addToCartTest" duration-ms="6659" started-at="2021-02-14T16:30:06 UTC" finished-at="2021-02-14T16:30:13 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- takeScreenShotTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests@10bbd20a]" name="afterTest" is-config="true" duration-ms="813" started-at="2021-02-13T15:43:14 UTC" finished-at="2021-02-13T15:43:15 UTC">
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ecom.selenium.external.browser.popup.AddToCartTest@10bbd20a]" name="afterTest" is-config="true" duration-ms="5" started-at="2021-02-14T16:30:13 UTC" finished-at="2021-02-14T16:30:13 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests -->
+      </class> <!-- com.ecom.selenium.external.browser.popup.AddToCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

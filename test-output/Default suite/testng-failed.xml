@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests">
+      <class name="com.ecom.selenium.external.browser.popup.AddToCartTest">
         <methods>
-          <include name="afterTest"/>
-          <include name="takeScreenShotTest"/>
           <include name="launchBrowser"/>
+          <include name="addToCartTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.ecom.selenium.external.browser.screenshot.BrowserWindwoScreenShotTests -->
+      </class> <!-- com.ecom.selenium.external.browser.popup.AddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
