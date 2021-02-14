@@ -28,7 +28,7 @@ public class AddToCartTest {
 
 	@AfterMethod
 	public void afterTest() {
-//		driver.close();
+		driver.close();
 	}
 
 	@Test
@@ -48,6 +48,10 @@ public class AddToCartTest {
 		driver.switchTo().window(tabs.get(1));
 		
 		driver.findElement(By.cssSelector("#add-to-cart-button")).click();
+		
+		driver.close();
+		
+		driver.switchTo().window(tabs.get(0));
 		    
 	//		Set<String> childWs = driver.getWindowHandles();
 	//		Iterator<String> windowIterator = childWs.iterator();
